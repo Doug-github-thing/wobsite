@@ -1,6 +1,6 @@
 body {
     background-color: rgb(100, 100, 100);
-    color: beige;
+    color: #ddd;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -36,6 +36,7 @@ div {
 
 /* Change the color of links on hover */
 .top_bar a:hover {
+    cursor: grab;
     background-color: #ddd;
     color: black;
 }
@@ -43,5 +44,5 @@ div {
 /* Add a color to the active/current link */
 .top_bar a.activeMenuItem {
     background-color: #04AA6D;
-    color: white;
+    /* color: white; */
 }
