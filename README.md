@@ -1,2 +1,2 @@
 # wobsite
-A personal website
+A personal site to build experience and intuition with web development.
