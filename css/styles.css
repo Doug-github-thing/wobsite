@@ -29,7 +29,6 @@ div {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    /* padding: 14px 16px; */
     padding: 2vmin 2vmin;
     text-decoration: none;
     font-size: 2vmin;
@@ -42,7 +41,7 @@ div {
 }
 
 /* Add a color to the active/current link */
-.top_bar a.active {
+.top_bar a.activeMenuItem {
     background-color: #04AA6D;
     color: white;
 }

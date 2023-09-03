@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="page icon" href="images/egg.ico" type="image/x-icon">
+    <script src="js/navigationbar.js"></script>
     <title>Dog Homepage</title>
 </head>
 <body>
     <div class="top_bar">
-        <a class="active" href="#Home">Home</a>
-        <a href="https://doug-github-thing.github.io/tictootsie/">TicTac Slide</a>
-        <a href="https://doug-github-thing.github.io/egg/">Snake</a>
-        <a href="https://github.com/Doug-github-thing">My github</a>
+        <a class="activeMenuItem" id="Home" onclick="location.reload()">Home</a>
+        <a class="inactiveMenuItem" id="TicTacSlide" onclick="ticTacSlide()">TicTacSlide</a>
+        <a class="inactiveMenuItem" id="Snake" onclick="snake()">Snake</a>
+        <a class="inactiveMenuItem" id="github" href="https://github.com/Doug-github-thing">My github</a>
     </div>
+
+    <embed id="embed" src="" style="width: 0px; height: 0px;">
 
     <div>Hello! This will one day be a personal website, where I can post things that I feel like</div> 
     <div id="footer">BOTTOM TEXT</div>
