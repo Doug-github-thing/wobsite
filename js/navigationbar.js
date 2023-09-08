@@ -9,7 +9,7 @@ function ticTacSlide() {
     document.getElementById("header").innerHTML = "";
     document.getElementById("bodyText").innerHTML = "Like TicTacToe, but each player only places 3 stones each, after which point they enter the *movement phase*, where they then take turns sliding each stone to an adjacent open square. The game objective remains the same.";
 
-    embed("https://doug-github-thing.github.io/tictootsie/");
+    embed("https://doug-github-thing.github.io/tictacslide/");
 }
 function snake() {
     // clear current active menu item
@@ -23,7 +23,7 @@ function snake() {
     document.getElementById("bodyText").innerHTML = "The game of Snake. Use the arrow keys to move.";
 
     // update page text
-    embed("https://doug-github-thing.github.io/egg/");
+    embed("https://doug-github-thing.github.io/snake/");
 }
 
 function embed(url) {
